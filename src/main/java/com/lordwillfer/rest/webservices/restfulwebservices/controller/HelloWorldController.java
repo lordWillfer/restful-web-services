@@ -1,5 +1,6 @@
 package com.lordwillfer.rest.webservices.restfulwebservices.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 //import org.springframework.web.bind.annotation.RequestMapping;
 //import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,6 +10,7 @@ import com.lordwillfer.rest.webservices.restfulwebservices.bean.HelloWorldBean;
 
 // Controller
 @RestController
+@CrossOrigin
 public class HelloWorldController {
 
 	// GET
