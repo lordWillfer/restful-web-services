@@ -1,4 +1,4 @@
-package com.lordwillfer.rest.webservices.restfulwebservices.controller;
+package com.lordwillfer.rest.webservices.restfulwebservices.controller.hello;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 //import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import com.lordwillfer.rest.webservices.restfulwebservices.bean.HelloWorldBean;
+import com.lordwillfer.rest.webservices.restfulwebservices.bean.hello.HelloWorldBean;
 
 // Controller
 @RestController
