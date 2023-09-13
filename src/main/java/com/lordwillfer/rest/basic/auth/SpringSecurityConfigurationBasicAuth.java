@@ -1,4 +1,4 @@
-package com.lordwillfer.rest.webservices.restfulwebservices.basic.auth;
+package com.lordwillfer.rest.basic.auth;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
